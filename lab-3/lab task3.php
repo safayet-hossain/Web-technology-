@@ -6,7 +6,6 @@
 </head>
 <body>  
 <?php
-// define variables and set to empty values
 $nameErr = $dobErr = $emailErr = $genderErr = $websiteErr = $bgErr= $degErr="";
 $name = $email = $gender = $comment = $website = $dob = $bg= $deg="";
 
@@ -21,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
   else {
     $name = test_input($_POST["name"]);
-    // check if name only contains letters and whitespace
+    
     if (!preg_match("/^[a-zA-Z-'. ]*$/",$name)) {
       $nameErr = "Only letters and white space allowed";
       $name = "";
