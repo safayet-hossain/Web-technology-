@@ -1,0 +1,107 @@
+a {
+  text-decoration: none;
+}
+#p1 {
+  color: white;
+  margin: auto;
+  width: 220px;
+  height: 30px;
+  border: 5px outset white;
+  background: red;
+  transition: width 0.5s;
+  text-align: center;
+}
+
+#p1:hover {
+  background: blue;
+  width: 320px;
+}
+
+#p2 {
+  color: white;
+  margin: auto;
+  width: 220px;
+  height: 30px;
+  border: 5px outset white;
+  background: red;
+  transition: width 0.5s;
+  text-align: center;
+}
+
+#p2:hover {
+  background: blue;
+  width: 320px;
+}
+#p3 {
+  color: white;
+  margin: auto;
+  width: 220px;
+  height: 30px;
+  border: 5px outset white;
+  background: red;
+  transition: width 0.5s;
+  text-align: center;
+}
+
+#p3:hover {
+  background: blue;
+  width: 320px;
+}
+#p4 {
+  color: white;
+  margin: auto;
+  width: 220px;
+  height: 30px;
+  border: 5px outset white;
+  background: red;
+  transition: width 0.5s;
+  text-align: center;
+}
+
+#p4:hover {
+  background: blue;
+  width: 320px;
+}
+#p5 {
+  color: white;
+  margin: auto;
+  width: 220px;
+  height: 30px;
+  border: 5px outset white;
+  background: red;
+  transition: width 0.5s;
+  text-align: center;
+}
+
+#p5:hover {
+  background: blue;
+  width: 320px;
+}
+#p6 {
+  color: white;
+  margin: auto;
+  width: 220px;
+  height: 30px;
+  border: 5px outset white;
+  background: red;
+  transition: width 0.5s;
+  text-align: center;
+}
+
+#p6:hover {
+  background: blue;
+  width: 320px;
+}
+
+
+
+fieldset {
+  background-image: url('../SAKIB/View/source/p1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+  padding: 100px;
+  border: 10px inset gray;
+  background-color: #F2E6D6;
+}
